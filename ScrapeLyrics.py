@@ -2,7 +2,7 @@ import pandas as pd
 import time
 import lyricsgenius
 
-client_access_token = 'EDiguMahPp2kxKf4Oib9LjOZABWSCtHemEYf0IELDAsQnlYClr1asY-2TcVrxrCY'
+client_access_token = 'enter your client access token that you just generated'
 genius = lyricsgenius.Genius(client_access_token, remove_section_headers=True,
                              skip_non_songs=True, excluded_terms=["Remix", "Live", "Edit", "Mix", "Club"])
 
